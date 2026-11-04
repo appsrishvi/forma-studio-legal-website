@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+ <defs>
+  <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1A2059"/><stop offset=".5" stop-color="#0D1335"/><stop offset="1" stop-color="#080E29"/></linearGradient>
+  <linearGradient id="wing" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#7055F7"/><stop offset=".40" stop-color="#A16BFB"/><stop offset=".77" stop-color="#F397C4"/><stop offset="1" stop-color="#FFC68E"/></linearGradient>
+  <linearGradient id="stem" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#6159F6"/><stop offset=".66" stop-color="#986AF8"/><stop offset="1" stop-color="#F1A0CE"/></linearGradient>
+  <radialGradient id="shine"><stop stop-color="#816DFF" stop-opacity=".22"/><stop offset="1" stop-color="#816DFF" stop-opacity="0"/></radialGradient>
+ </defs>
+ <rect width="1024" height="1024" rx="235" fill="url(#base)"/>
+ <circle cx="665" cy="276" r="410" fill="url(#shine)"/>
+ <!-- The vertical panel is a folded, editable design sheet. The two flying panels form F. -->
+ <path d="M276 729V404C276 292 357 246 464 246H735C720 316 654 373 558 373H452C402 373 381 397 381 452V625C381 679 340 713 276 729Z" fill="url(#stem)"/>
+ <path d="M378 402C399 323 466 288 567 288H752C737 366 668 422 569 422H463C424 422 398 447 378 488Z" fill="url(#wing)"/>
+ <path d="M375 526C403 465 457 441 524 441H648C634 505 583 553 509 553H463C422 553 394 576 375 620Z" fill="url(#wing)"/>
+ <path d="M277 730C338 719 380 672 380 616V556C341 578 303 621 277 685Z" fill="#5958E9" opacity=".65"/>
+</svg>
